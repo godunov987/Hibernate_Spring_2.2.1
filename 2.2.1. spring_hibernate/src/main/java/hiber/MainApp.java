@@ -34,6 +34,8 @@ public class MainApp {
          userService.add(userArr[i]);
       }
 
+      System.out.println(userService.getUserByCar(car [1]).toString());
+
 
 
 //      List<User> users = userService.listUsers();
